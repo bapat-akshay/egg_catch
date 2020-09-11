@@ -22,3 +22,7 @@ This code uses Q-learning to teach the computer to play the "egg-catch" game.
 * After every certain number of episodes, a full episode is rendered and you can see the computer trying to catch eggs to maximize the reward. This certain number is defined using the constant "SHOW_EVERY" in egg_catch.py.
 * With the current parameters, the code runs 30,000 episodes. Every 5000th episode is shown on the screen and saved in the folder "output_images/".
 * A video can be generated from the output images using the "generate_video.py" file. Simply run `python generate_video.py <output-images-subfolder>`. This subfolder can be something like 0, or 5000.
+
+## Output Videos
+
+![Alt Text](https://github.com/bapat-akshay/egg_catch/blob/master/egg-catch-0.gif)
