@@ -5,10 +5,10 @@ This code uses Q-learning to teach the computer to play the "egg-catch" game.
 ## Game Rules
 
 1. Objects fall from the sky randomly. These objects can be of three types:
-	* Eggs - Good :-)
-	* Golden Eggs - Great :-D
-	* Poo - Bad :-(
-1. Player controls a basket on the ground.
+	* Eggs - Good :-) (white squares in the game)
+	* Golden Eggs - Great :-D (golden squares in the game)
+	* Poo - Bad :-( (brown squares in the game)
+1. Player controls a basket (blue square) on the ground.
 1. There is a reward for catching eggs, and a bigger reward for catching golden eggs.
 1. There is a penalty for catching poo or dropping eggs, and an even larger penalty for dropping golden eggs.
 1. The objective is to maximize the reward.
