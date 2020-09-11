@@ -25,4 +25,10 @@ This code uses Q-learning to teach the computer to play the "egg-catch" game.
 
 ## Output Videos
 
+The first video is the untrained computer playing the game. As you can see, it performs random actions and has a very bad success rate.
+
 ![Alt Text](https://github.com/bapat-akshay/egg_catch/blob/master/egg-catch-0.gif)
+
+In the second video, the computer has trained over 25,000 game episodes and does not miss eggs at all.
+
+![Alt Text](https://github.com/bapat-akshay/egg_catch/blob/master/egg-catch-25000.gif)
