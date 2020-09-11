@@ -15,9 +15,10 @@ This code uses Q-learning to teach the computer to play the "egg-catch" game.
 
 ## How to Run
 
-* Run the command `egg_catch.py` if you do not have a Q Table to start with.
-* If a Q Table already exists, run `egg_catch.py <Q-Table-file-name>`.
+* Run the command `python egg_catch.py` if you do not have a Q Table to start with.
+* If a Q Table already exists, run `python egg_catch.py <Q-Table-file-name>`.
 * The code runs a number of training episodes, and outputs a Q Table that is saved in the directory, as well as a graph showing the moving average of rewards across all training episodes.
 * You can change the learning parameters such as number of episodes, learning rate, epsilon, etc. in the python files.
 * After every certain number of episodes, a full episode is rendered and you can see the computer trying to catch eggs to maximize the reward. This certain number is defined using the constant "SHOW_EVERY" in egg_catch.py.
 * With the current parameters, the code runs 30,000 episodes. Every 5000th episode is shown on the screen and saved in the folder "output_images/".
+* A video can be generated from the output images using the "generate_video.py" file. Simply run `python generate_video.py <output-images-subfolder>`. This subfolder can be something like 0, or 5000.
